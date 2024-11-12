@@ -14,6 +14,7 @@
 1. На странице репозитория [Kurtyanik/LR6](https://github.com/Kurtyanik/LR6) нажимаем кнопку "fork" в верхней части страницы
 
 2. Создаем форк "Create fork"
+
 ![форк репозитория](assets/create_fork.png)
 
 # Установка Git
@@ -61,4 +62,36 @@ git diff
 
 # Создание коммита через редактор - Goland
 В Goland для создания коммита выбираем измененные файлы, пишем сообщение коммита и подтверждаем изменения.
+
 ![создание коммита goland](assets/goland.png)
+
+# Слияние веток
+Выполняем слияние в ветку master, разрешая конфликт с помощью графического интерфейса Git.
+1. Выводим список веток:
+```bash
+git branch -a
+```
+![все ветки](assets/vetki.png)
+
+2. Слияние удаленной ветки `origin/vetka` в ветку `master`:
+```bash
+git merge origin/vetka
+```
+![cлияни](assets/konflikt.png)
+
+3. Решение конфликта 
+![решение конфликта](assets/result_konflikt.png)
+
+# Удаление побочной ветки
+После успешного слияния, удаляем побочную ветку:
+```bash
+git push origin --delete vetka
+```
+
+![удаление ветки](assets/delete_vetka.png)
+
+# Откат коммита 
+1. Получим историю коммитов: 
+```bash git log --oneline 
+``` 
+![история опреация3](assets/check_log3.png)
