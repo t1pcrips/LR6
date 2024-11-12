@@ -90,8 +90,6 @@ git push origin --delete vetka
 
 ![удаление ветки](assets/delete_vetka.png)
 
-# Откат коммита 
-1. Получим историю коммитов: 
-```bash git log --oneline 
-``` 
-![история опреация3](assets/check_log3.png)
+
+
+ijafsjioadijofsdijof
