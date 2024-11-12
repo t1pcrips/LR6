@@ -89,3 +89,7 @@ git push origin --delete vetka
 ```
 
 ![удаление ветки](assets/delete_vetka.png)
+
+
+
+ijafsjioadijofsdijof
