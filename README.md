@@ -21,8 +21,11 @@
 
 # Настройка Git
 После установки Git, настраиваем клиент, вводя имя пользователя и email:
+
+```bash
 git config --global user.name "Timofey Podlinov"
 git config --global user.email "timapodina@gmail.com"
+```
 
 # Клонирование репозитория
 Клонируем репозиторий на локальную машину:
@@ -49,3 +52,9 @@ git log --all --oneline
 git log -all --graph
 ```
 ![история опреация1](assets/check_log.png)
+
+# Просмотр последних изменений
+```bash
+git diff
+```
+![поcледние изменения](assets/check_diff.png)
